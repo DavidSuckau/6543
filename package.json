@@ -1,0 +1,30 @@
+{
+  "name": "flexbom-landing",
+  "version": "1.0.0",
+  "description": "FlexBOM - Intelligente Stücklistenverwaltung Landing Page",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python3 -m http.server 8000",
+    "start": "python3 -m http.server 8000",
+    "build": "echo 'Static site - no build required'",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "bom",
+    "stückliste",
+    "landing-page",
+    "vercel",
+    "static-site"
+  ],
+  "author": "FlexBOM Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/flexbom-landing.git"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+} 

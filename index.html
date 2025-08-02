@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBOM - Intelligente Stücklistenverwaltung</title>
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#2563eb">
+    <meta name="description" content="FlexBOM - Revolutionäre Stücklistenverwaltung für Ihr Unternehmen. Optimieren Sie Ihre Produktionsprozesse mit unserer intelligenten Software.">
+    <meta name="keywords" content="BOM, Stückliste, Stücklistenverwaltung, Produktion, FlexBOM, OpenBOM">
+    <meta name="author" content="FlexBOM Team">
+    <meta property="og:title" content="FlexBOM - Intelligente Stücklistenverwaltung">
+    <meta property="og:description" content="Revolutionäre Stücklistenverwaltung für Ihr Unternehmen">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://flexbom.vercel.app">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="FlexBOM - Intelligente Stücklistenverwaltung">
+    <meta name="twitter:description" content="Revolutionäre Stücklistenverwaltung für Ihr Unternehmen">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-cogs"></i>
+                <span>FlexBOM</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Start</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Preise</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+                <li><a href="#demo" class="cta-button">Demo anfordern</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Revolutionäre Stücklistenverwaltung</h1>
+                <p>FlexBOM vereinfacht die Erstellung und Verwaltung von Stücklisten (BOM) für Ihr Unternehmen. Optimieren Sie Ihre Produktionsprozesse mit unserer intelligenten Software.</p>
+                <div class="hero-buttons">
+                    <a href="#demo" class="btn-primary">Kostenlose Demo</a>
+                    <a href="#features" class="btn-secondary">Mehr erfahren</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-visual">
+                    <div class="bom-card">
+                        <div class="bom-header">
+                            <h3>Stückliste - Produkt A</h3>
+                            <span class="version">v2.1</span>
+                        </div>
+                        <div class="bom-items">
+                            <div class="bom-item">
+                                <span class="item-id">A001</span>
+                                <span class="item-name">Gehäuse</span>
+                                <span class="item-qty">1x</span>
+                            </div>
+                            <div class="bom-item">
+                                <span class="item-id">A002</span>
+                                <span class="item-name">Platine</span>
+                                <span class="item-qty">1x</span>
+                            </div>
+                            <div class="bom-item">
+                                <span class="item-id">A003</span>
+                                <span class="item-name">Schrauben M3</span>
+                                <span class="item-qty">4x</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Warum FlexBOM?</h2>
+                <p>Entdecken Sie die Vorteile unserer modernen Stücklistenverwaltung</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-sitemap"></i>
+                    </div>
+                    <h3>Hierarchische Stücklisten</h3>
+                    <p>Erstellen Sie komplexe, mehrstufige Stücklisten mit unbegrenzter Tiefe und automatischer Berechnung.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <h3>Versionskontrolle</h3>
+                    <p>Verfolgen Sie alle Änderungen mit automatischer Versionskontrolle und Änderungshistorie.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Team-Kollaboration</h3>
+                    <p>Arbeiten Sie gemeinsam mit Ihrem Team in Echtzeit an Stücklisten und Projekten.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Kostenanalyse</h3>
+                    <p>Automatische Kostenberechnung und -analyse für Ihre Stücklisten und Produkte.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud-basiert</h3>
+                    <p>Zugriff von überall mit unserer sicheren Cloud-Lösung und automatischen Backups.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-file-export"></i>
+                    </div>
+                    <h3>Export-Funktionen</h3>
+                    <p>Exportieren Sie Ihre Stücklisten in verschiedene Formate: Excel, PDF, CSV und mehr.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2>Preise</h2>
+                <p>Wählen Sie den Plan, der zu Ihrem Unternehmen passt</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Starter</h3>
+                        <div class="price">
+                            <span class="currency">€</span>
+                            <span class="amount">29</span>
+                            <span class="period">/Monat</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Bis zu 100 Stücklisten</li>
+                        <li><i class="fas fa-check"></i> 2 Benutzer</li>
+                        <li><i class="fas fa-check"></i> Grundlegende Export-Funktionen</li>
+                        <li><i class="fas fa-check"></i> E-Mail-Support</li>
+                    </ul>
+                    <a href="#contact" class="btn-pricing">Jetzt starten</a>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="pricing-header">
+                        <h3>Professional</h3>
+                        <div class="price">
+                            <span class="currency">€</span>
+                            <span class="amount">79</span>
+                            <span class="period">/Monat</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Unbegrenzte Stücklisten</li>
+                        <li><i class="fas fa-check"></i> 10 Benutzer</li>
+                        <li><i class="fas fa-check"></i> Erweiterte Export-Funktionen</li>
+                        <li><i class="fas fa-check"></i> Versionskontrolle</li>
+                        <li><i class="fas fa-check"></i> Kostenanalyse</li>
+                        <li><i class="fas fa-check"></i> Prioritäts-Support</li>
+                    </ul>
+                    <a href="#contact" class="btn-pricing">Jetzt starten</a>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Enterprise</h3>
+                        <div class="price">
+                            <span class="currency">€</span>
+                            <span class="amount">199</span>
+                            <span class="period">/Monat</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Unbegrenzte Stücklisten</li>
+                        <li><i class="fas fa-check"></i> Unbegrenzte Benutzer</li>
+                        <li><i class="fas fa-check"></i> Alle Export-Funktionen</li>
+                        <li><i class="fas fa-check"></i> API-Zugang</li>
+                        <li><i class="fas fa-check"></i> On-Premise Option</li>
+                        <li><i class="fas fa-check"></i> Dedizierter Support</li>
+                    </ul>
+                    <a href="#contact" class="btn-pricing">Kontakt aufnehmen</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Kontaktieren Sie uns</h2>
+                    <p>Bereit, Ihre Stücklistenverwaltung zu revolutionieren? Lassen Sie uns sprechen!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@flexbom.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+49 30 12345678</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Berlin, Deutschland</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Ihr Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Ihre E-Mail" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="company" name="company" placeholder="Unternehmen">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Ihre Nachricht" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Nachricht senden</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-cogs"></i>
+                        <span>FlexBOM</span>
+                    </div>
+                    <p>Die moderne Lösung für Stücklistenverwaltung und Produktionsoptimierung.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Produkt</h4>
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#pricing">Preise</a></li>
+                        <li><a href="#demo">Demo</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Unternehmen</h4>
+                    <ul>
+                        <li><a href="#about">Über uns</a></li>
+                        <li><a href="#contact">Kontakt</a></li>
+                        <li><a href="#careers">Karriere</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#help">Hilfe</a></li>
+                        <li><a href="#docs">Dokumentation</a></li>
+                        <li><a href="#contact">Support</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 FlexBOM. Alle Rechte vorbehalten.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
